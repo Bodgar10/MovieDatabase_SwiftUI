@@ -14,6 +14,8 @@
 		9B8E5B7129E70ABE00DBD48D /* MovieDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E5B7029E70ABE00DBD48D /* MovieDatabaseTests.swift */; };
 		9B8E5B7B29E70ABE00DBD48D /* MovieDatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E5B7A29E70ABE00DBD48D /* MovieDatabaseUITests.swift */; };
 		9B8E5B7D29E70ABE00DBD48D /* MovieDatabaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8E5B7C29E70ABE00DBD48D /* MovieDatabaseUITestsLaunchTests.swift */; };
+		9BC5B81E29EDA4250098273E /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5B81D29EDA4250098273E /* TrendingCard.swift */; };
+		9BC5B82029EDA4AF0098273E /* MovieDBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5B81F29EDA4AF0098273E /* MovieDBViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		9B8E5B7629E70ABE00DBD48D /* MovieDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8E5B7A29E70ABE00DBD48D /* MovieDatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDatabaseUITests.swift; sourceTree = "<group>"; };
 		9B8E5B7C29E70ABE00DBD48D /* MovieDatabaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDatabaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BC5B81D29EDA4250098273E /* TrendingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCard.swift; sourceTree = "<group>"; };
+		9BC5B81F29EDA4AF0098273E /* MovieDBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDBViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				9B8E5B6129E70ABC00DBD48D /* ContentView.swift */,
 				9B8E5B6329E70ABE00DBD48D /* Assets.xcassets */,
 				9B8E5B6529E70ABE00DBD48D /* Preview Content */,
+				9BC5B81D29EDA4250098273E /* TrendingCard.swift */,
+				9BC5B81F29EDA4AF0098273E /* MovieDBViewModel.swift */,
 			);
 			path = MovieDatabase;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC5B81E29EDA4250098273E /* TrendingCard.swift in Sources */,
 				9B8E5B6229E70ABC00DBD48D /* ContentView.swift in Sources */,
 				9B8E5B6029E70ABC00DBD48D /* MovieDatabaseApp.swift in Sources */,
+				9BC5B82029EDA4AF0098273E /* MovieDBViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
